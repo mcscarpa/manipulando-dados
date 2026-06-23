@@ -55,5 +55,5 @@ px.histogram(base, x=["CATEGORIA","ID LOJA"], y="MOVIMENTAÇÃO", text_auto=True
 px.histogram(base, x="TIPO", y="MOVIMENTAÇÃO", text_auto=True, color="TIPO").show()
 
 # Gerando arquivo HTML
-gec = px.histogram(base, x=["TIPO","ID LOJA"], y="MOVIMENTAÇÃO", text_auto=True, color="TIPO")
-gec.write_html("grafico_entradas_saidas_devolucoes.html")
+## gec = px.histogram(base, x=["TIPO","ID LOJA"], y="MOVIMENTAÇÃO", text_auto=True, color="TIPO")
+## gec.write_html("grafico_entradas_saidas_devolucoes.html")
